@@ -73,14 +73,14 @@ function isDog(animal: Animal): animal is Dog {
     return animal instanceof Dog;
 }
 
-function isCat(animal: Animal): animal is Cat {
-    return animal instanceof Cat;
-}
+// function isCat(animal: Animal): animal is Cat {
+//     return animal instanceof Cat;
+// }
 
 function getAnimal(animal: Animal) {
     if (isDog(animal)) {
         animal.makeBark();
-    } else if (isCat(animal)) {
+    } else if (animal instanceof Cat) {
         animal.makeMeaw();
     } else {
         animal.makeSound();
