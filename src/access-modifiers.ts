@@ -1,4 +1,4 @@
-class BankAccount {
+class BankAccount1 {
     constructor(
         public id: number,
         public name: string,
@@ -11,5 +11,5 @@ class BankAccount {
         this._balance = this._balance + amount;
     }
 }
-const person = new BankAccount(1, 'person', 20)
-console.log(person);
+const myAccount = new BankAccount1(1, 'myAccount', 20)
+console.log(myAccount);
