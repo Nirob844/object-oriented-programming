@@ -1,4 +1,4 @@
-class Animal {
+class AnimalO {
     // public name: string;
     // public species: string;
     // public sound: string;
@@ -15,5 +15,5 @@ class Animal {
         console.log(`this ${this.name} says ${this.sound}`);
     }
 }
-const dog = new Animal('dogi', 'dog', 'ghaw ghaw');
+const dog = new AnimalO('dogi', 'dog', 'ghaw ghaw');
 dog.makeSound()
