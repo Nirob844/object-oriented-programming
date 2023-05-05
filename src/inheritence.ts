@@ -13,7 +13,7 @@
 // }
 
 
-// class Student extends Parent {
+// class Student1 extends Parent {
 //     constructor(
 //         public name: string,
 //         public age: number,
@@ -22,7 +22,7 @@
 //         super(name, age, address);
 //     }
 // }
-// const std = new Student('josi', 24, 'uganda');
+// const std = new Student1('josi', 24, 'uganda');
 // std.makeSleep(6)
 
 class Parent {
@@ -41,13 +41,13 @@ class Parent {
     }
 }
 
-class Student extends Parent {
+class Student1 extends Parent {
     constructor(name: string, age: number, address: string) {
         super(name, age, address);
     }
 }
 
-const student1 = new Student('Mr.X', 15, 'Uganda');
+const student1 = new Student1('Mr.X', 15, 'Uganda');
 student1.makeSleep(6);
 
 class Teacher extends Parent {
